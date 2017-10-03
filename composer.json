@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "tzsk\\shorten-url\\": "src"
+            "Tzsk\\ShortenUrl\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "tzsk\\shorten-url\\": "tests"
+            "Tzsk\\ShortenUrl\\": "tests"
         }
     },
     "scripts": {

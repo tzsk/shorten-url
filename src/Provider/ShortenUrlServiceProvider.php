@@ -14,12 +14,12 @@ class ShortenUrlServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->singleton('tzsk-shorten-url', function($app) {
+        $this->app->singleton('tzsk-shorten-url', function ($app) {
             return new GoogleUrlShortener($app);
         });
 
         $this->publishes([
-            __DIR__ . "/../Config/url.php" => config_path("url.php")
+            __DIR__ . '/../Config/url.php' => config_path('url.php')
         ], 'config');
     }
 

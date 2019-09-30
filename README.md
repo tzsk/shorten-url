@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://scrutinizer-ci.com/g/tzsk/shorten-url/badges/build.png?b=master)](https://scrutinizer-ci.com/g/tzsk/shorten-url/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tzsk/shorten-url/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tzsk/shorten-url/?branch=master)
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]

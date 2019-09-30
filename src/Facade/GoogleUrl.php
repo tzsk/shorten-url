@@ -1,6 +1,6 @@
 <?php
-namespace Tzsk\ShortenUrl\Facade;
 
+namespace Tzsk\ShortenUrl\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

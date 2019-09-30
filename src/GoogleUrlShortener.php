@@ -1,6 +1,6 @@
 <?php
-namespace Tzsk\ShortenUrl;
 
+namespace Tzsk\ShortenUrl;
 
 class GoogleUrlShortener
 {
@@ -111,7 +111,7 @@ class GoogleUrlShortener
      */
     private function getShorternerResponse($longUrl)
     {
-        if (!$this->extended && !empty(self::$buffer[$longUrl]) ) {
+        if (!$this->extended && !empty(self::$buffer[$longUrl])) {
             return self::$buffer[$longUrl];
         }
 
@@ -125,10 +125,9 @@ class GoogleUrlShortener
     /**
      * Destroy Curl.
      */
-    function __destruct()
+    public function __destruct()
     {
         curl_close($this->curl);
         $this->curl = null;
     }
-
 }
